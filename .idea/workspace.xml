@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa0ef2b5-ff6a-4364-9214-dcbe0afcb13e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/index.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1RMcs5qANHuWdsx2tVpfLtGoRcn" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource/views" />
+      <recent name="$PROJECT_DIR$/resource/views/home" />
+      <recent name="$PROJECT_DIR$/resource/views/auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/http" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa0ef2b5-ff6a-4364-9214-dcbe0afcb13e" name="Default Changelist" comment="" />
+      <created>1569480609680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569480609680</updated>
+      <workItem from="1569480617912" duration="2295000" />
+      <workItem from="1569588199123" duration="18364000" />
+      <workItem from="1569673147308" duration="1042000" />
+      <workItem from="1569687387499" duration="10414000" />
+      <workItem from="1569787414682" duration="1109000" />
+      <workItem from="1569788713957" duration="16044000" />
+      <workItem from="1570027733137" duration="5736000" />
+      <workItem from="1570121481731" duration="8311000" />
+      <workItem from="1570203361354" duration="5000" />
+      <workItem from="1570209234819" duration="271000" />
+      <workItem from="1570300584929" duration="823000" />
+      <workItem from="1570338240895" duration="19142000" />
+      <workItem from="1570440257955" duration="9886000" />
+      <workItem from="1570601776328" duration="2320000" />
+      <workItem from="1570611593474" duration="7128000" />
+      <workItem from="1570648135320" duration="3879000" />
+      <workItem from="1570700649935" duration="20503000" />
+      <workItem from="1570803250235" duration="17045000" />
+      <workItem from="1571241888397" duration="601000" />
+      <workItem from="1571431215123" duration="31000" />
+      <workItem from="1572030634182" duration="601000" />
+      <workItem from="1572115656962" duration="4751000" />
+      <workItem from="1572209524692" duration="3406000" />
+      <workItem from="1572243122888" duration="24969000" />
+      <workItem from="1572373143820" duration="3588000" />
+      <workItem from="1572467111110" duration="1033000" />
+      <workItem from="1574182351451" duration="1237000" />
+      <workItem from="1574527576960" duration="3430000" />
+      <workItem from="1574793847912" duration="4279000" />
+      <workItem from="1574835255864" duration="12057000" />
+      <workItem from="1574868471901" duration="14236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="nodejs-cms" type="b2602c69:ProjectViewProjectNode" />
+        <item name="nodejs-cms" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
