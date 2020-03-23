@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa0ef2b5-ff6a-4364-9214-dcbe0afcb13e" name="Default Changelist" comment="" />
+    <list default="true" id="aa0ef2b5-ff6a-4364-9214-dcbe0afcb13e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/helpers/uploadImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/controllers/admin/episodeController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/middleware/convertFileToField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/middleware/errorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/validators/episodeValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/episode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/views/admin/episodes/create.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/views/admin/episodes/edit.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/views/admin/episodes/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/admin/adminController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/admin/adminController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/admin/courseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/admin/courseController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/auth/loginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/auth/loginController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/homeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/validators/courseValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/courseValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/validators/forgotPasswordValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/forgotPasswordValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/validators/loginValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/loginValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/validators/registerValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/registerValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/validators/resetPasswordValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/resetPasswordValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/validators/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/password-reset.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/password-reset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/web/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/web/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/web/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/web/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/views/admin/courses/create.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/admin/courses/create.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/views/admin/courses/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/admin/courses/index.ejs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +51,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/index.js" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -27,24 +64,26 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1RMcs5qANHuWdsx2tVpfLtGoRcn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource/views/admin/episodes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource/views/admin/episodes" />
+      <recent name="$PROJECT_DIR$/app/http" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resource/views" />
       <recent name="$PROJECT_DIR$/resource/views/home" />
       <recent name="$PROJECT_DIR$/resource/views/auth" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/http" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,12 +138,57 @@
       <workItem from="1574527576960" duration="3430000" />
       <workItem from="1574793847912" duration="4279000" />
       <workItem from="1574835255864" duration="12057000" />
-      <workItem from="1574868471901" duration="14236000" />
+      <workItem from="1574868471901" duration="14278000" />
+      <workItem from="1575020762436" duration="3426000" />
+      <workItem from="1575052558595" duration="18573000" />
+      <workItem from="1575215737188" duration="3795000" />
+      <workItem from="1575559289754" duration="4315000" />
+      <workItem from="1575627204066" duration="7797000" />
+      <workItem from="1575668703037" duration="2410000" />
+      <workItem from="1575915412582" duration="1083000" />
+      <workItem from="1575998420652" duration="7346000" />
+      <workItem from="1576084949611" duration="6255000" />
+      <workItem from="1576169560140" duration="2310000" />
+      <workItem from="1576226236638" duration="4677000" />
+      <workItem from="1576245779996" duration="2848000" />
+      <workItem from="1576433132013" duration="5222000" />
+      <workItem from="1579344279803" duration="3743000" />
+      <workItem from="1579418146099" duration="1086000" />
+      <workItem from="1579425853627" duration="2103000" />
+      <workItem from="1579431732519" duration="6930000" />
+      <workItem from="1580302722050" duration="604000" />
+      <workItem from="1580758293767" duration="98000" />
+      <workItem from="1584103497805" duration="2620000" />
+      <workItem from="1584118820210" duration="2745000" />
+      <workItem from="1584121785750" duration="2637000" />
+      <workItem from="1584435377554" duration="3133000" />
+      <workItem from="1584523058519" duration="11821000" />
+      <workItem from="1584610466440" duration="8461000" />
+      <workItem from="1584713376386" duration="2101000" />
+      <workItem from="1584720220845" duration="3092000" />
+      <workItem from="1584781396073" duration="3412000" />
+      <workItem from="1584802804728" duration="5482000" />
+      <workItem from="1584893953788" duration="3552000" />
+      <workItem from="1584955708808" duration="2850000" />
+      <workItem from="1584962655275" duration="6869000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

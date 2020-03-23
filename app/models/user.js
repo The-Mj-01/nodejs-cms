@@ -4,12 +4,12 @@ const uniqueString = require('unique-string');
 
 
 const userSchema = mongoose.Schema({
-    name : { type : String , require : true},
+    name : { type : String , required : true},
     admin : { type : Boolean , default : 0 },
-    email : { type : String , require : true , unique : true},
-    password : { type : String , require : true} ,
+    email : { type : String , required : true , unique : true},
+    password : { type : String , required : true} ,
     rememberToken: { type : String , default: null }
-} , { timestamps : true });
+} , { timestamps : true , toJSON : { virtuals : true } });
 
 userSchema.pre('save' , function (next) {
     let salt = bcrypt.genSaltSync(15);
@@ -44,5 +44,12 @@ userSchema.methods.setRememberToken = function(res){
         if(err) console.log(err);
     });
 }
+
+
+userSchema.virtual('courses' , {
+    ref : 'Course',
+    localField : '_id',
+    foreignField : 'user'
+});
 
 module.exports = mongoose.model('User' , userSchema);

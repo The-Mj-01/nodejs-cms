@@ -1,40 +1,61 @@
 const validator = require('./validator');
 const { check } = require('express-validator/check');
+const Course = require('app/models/course');
+const path = require('path');
 
 class courseValidator extends validator {
-    handle(){
+    
+    handle() {
         return [
             check('title')
-                .not().isEmpty()
-                .withMessage('فیلد عنوان نمی تواند خالی بماند')
                 .isLength({ min : 5 })
-                .withMessage('فیلد عنوان نمی تواند کمتر از ۵ کاراکتر باشد'),
+                .withMessage('عنوان نمیتواند کمتر از 5 کاراکتر باشد')
+                .custom(async (value , { req }) => {
+                    if(req.query._method === 'put') {
+                        let course = await Course.findById(req.params.id);
+                        if(course.title === value) return;
+                    }
+                    let course = await Course.findOne({ slug : this.slug(value) });
+                    if(course) {
+                        throw new Error('چنین دوره ای با این عنوان قبلا در سایت قرار داد شده است')
+                    }
+                }),
+
+            check('images')
+                .custom(async (value , { req }) => {
+                    if(req.query._method === 'put' && value === undefined) return;
+
+                    if(! value)
+                        throw new Error('وارد کردن تصویر الزامی است');
+
+                    let fileExt = ['.png' , '.jpg' , '.jpeg' , '.svg'];
+                    if(! fileExt.includes(path.extname(value)))
+                        throw new Error('پسوند فایل وارد شده از پسوندهای تصاویر نیست')
+                }),
+            
 
             check('type')
                 .not().isEmpty()
-                .withMessage('فیلد نوع دوره نمی تواند خالی بماند'),
+                .withMessage('فیلد نوع دوره نمیتواند خالی بماند'),
+
             check('body')
-                .not().isEmpty()
-                .withMessage('متن دوره نمی تواند خالی بماند')
                 .isLength({ min : 20 })
-                .withMessage('متن دوره نمی تواند کمتر از ۸ کاراکتر باشد'),
+                .withMessage('متن دوره نمیتواند کمتر از 20 کاراکتر باشد'),
+
             check('price')
                 .not().isEmpty()
-                .withMessage('قیمت دوره نمی تواند خالی بماند'),
+                .withMessage('قیمت دوره نمیتواند خالی بماند'),
+
             check('tags')
                 .not().isEmpty()
-                .withMessage('فیلد تگ نمی تواند خالی بماند'),
-
-
+                .withMessage('فیلد تگ نمیتواند خالی بماند'),
         ]
+    }
+
+    
+    slug(title) {
+        return title.replace(/([^۰-۹آ-یa-z0-9]|-)+/g , "-")
     }
 }
 
-
 module.exports = new courseValidator();
-
-
-// req.checkBody('email' , 'فیلد ایمیل نمی تواند خالی بماند').notEmpty();
-// req.checkBody('email' , 'فیلد ایمیل معتبر نیست').isEmail();
-// req.checkBody('password' , 'فیلد پسورد نمی تواند خالی بماند').notEmpty();
-// req.checkBody('password' , 'فیلد پسورد نمی تواند کمتر از ۸ کاراکتر باشد').isLength({ min:8 });

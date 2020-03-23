@@ -9,6 +9,7 @@ class loginController extends controller{
             // errors:req.flash('errors'),
             recaptcha: this.recaptcha.render() ,
             title });
+
     }
     async loginProccess(req , res , next){
 

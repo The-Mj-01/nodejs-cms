@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 
 
-const passwordResset = mongoose.Schema({
-    email : { type : String , require : true },
-    token : { type : String , require : true},
+const passwordReset = mongoose.Schema({
+    email : { type : String , required : true },
+    token : { type : String , required : true},
     use : { type : Boolean , default : false }
 } , { timestamps : {updatedAt: false } });
 
 
-module.exports = mongoose.model('passwordReset' , passwordResset);
+module.exports = mongoose.model('passwordReset' , passwordReset);

@@ -29,6 +29,7 @@ module.exports = class Helpers {
 
     }
     getGlobalVariables(){
+        // console.log(this.req.flash('errors'));
         return {
             errors : this.req.flash('errors')
         }
@@ -36,7 +37,7 @@ module.exports = class Helpers {
 
     old(field , defaultValue =''){
 
-        console.log(this.formData)
+        // console.log(this.formData);
         return this.formData && this.formData.hasOwnProperty(field) ? this.formData[field] : defaultValue;
     }
 }

@@ -1,8 +1,8 @@
 <div class="d-flex justify-content-between align-items-center mb-3 border-bottom-1">
-    <h2>دوره ها</h2>
+    <h2>ویدیو ها</h2>
     <div class="btn-group">
-        <a href="/admin/courses/create" class="btn btn-sm btn-primary">ایجاد دوره جدید</a>
-        <a href="/admin/episodes" class="btn btn-sm btn-danger">بخش ویدیوها</a>
+        <a href="/admin/episodes/create" class="btn btn-sm btn-primary">ایجاد جلسه جدید</a>
+        <a href="/admin/courses" class="btn btn-sm btn-danger">بخش دوره ها</a>
     </div>
 </div>
 <div class="table-responsive">
@@ -10,29 +10,30 @@
         <thead>
         <tr>
             <th>عنوان دوره</th>
-            <th>تعداد نظرات</th>
+            <th>تعداد دانلود</th>
             <th>مقدار بازدید</th>
             <th>تعد شرکت کننده ها</th>
-            <th>وضعیت دوره</th>
+            <th>وضعیت ویدیو</th>
             <th>تنظیمات</th>
         </tr>
         </thead>
         <tbody>
-        <% courses.docs.forEach(course => { %>
+        <% episodes.docs.forEach(episode => { %>
         <tr>
-            <td><a href="/courses/آپدیت-جدید-راکت"><%= course.title %></a></td>
-            <td><%= course.commentCount %></td>
-            <td><%= course.viewCount %></td>
+            <td><a href="/episodes/آپدیت-جدید-راکت"><%= episode.title %></a></td>
+            <td><%= episode.downloadCount %></td>
+            <td><%= episode.commentCount %></td>
+            <td><%= episode.viewCount %></td>
 <!--            <td>آموزش پروژه محور bootstrap 4</td>-->
             <td>
-                <%= course.typeToPersian() %>
+                <%= episode.typeToPersian() %>
             </td>
             <td>
-                <form action="/admin/courses/<%= course._id %>?_method=DELETE" method="post">
+                <form action="/admin/episodes/<%= episode._id %>?_method=DELETE" method="post">
                     <input type="hidden" name="_method" value="delete">
 <!--                    <input type="hidden" name="_token" value="Dso45XzqoXsAkRC8BBMQ63ZsOFS0c2tELkxR4i3Y">-->
                     <div class="btn-group btn-group-sm">
-                        <a href="/admin/courses/<%= course._id %>/edit"  class="btn btn-primary">ویرایش</a>
+                        <a href="/admin/episodes/<%= episode._id %>/edit"  class="btn btn-primary">ویرایش</a>
                         <button type="submit" class="btn btn-danger">حذف</button>
                     </div>
                 </form>
@@ -42,6 +43,6 @@
         </tbody>
     </table>
 
-    <%- include(viewPath('layouts/pagination') , { pagination : courses}) %>
+    <%- include(viewPath('layouts/pagination') , { pagination : episodes}) %>
 </div>
 
