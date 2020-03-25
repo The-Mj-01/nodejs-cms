@@ -47,15 +47,11 @@
                 <option value="free" selected <%= old('type') === 'free' ? 'selected' : '' %> >رایگان</option>
             </select>
         </div>
-    </div>
-
-    <div class="form-group row">
+    
         <div class="col">
             <label for="number" class="control-label font-weight-bold">شماره جلسه</label>
             <input type="text" class="form-control" name="number" id="number" placeholder="شماره جلسه را وارد کنید" value="<%= old('number')%>">
         </div>
-    </div>
-    <div class="form-group row">
         <div class="col">
             <label for="tags" class="control-label font-weight-bold">تگ ها</label>
             <input type="text" class="form-control" name="tags" id="tags" placeholder="تگ ها را وارد کنید" value="<%= old('tags')%>">

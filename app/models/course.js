@@ -35,7 +35,9 @@ courseSchema.methods.typeToPersian = function (){
     }
 }
 
-
+courseSchema.methods.path= function(){
+    return `/courses/${this.slug}`;
+}
 courseSchema.virtual('episodes', {
     ref : 'Episode',
     localField : '_id',

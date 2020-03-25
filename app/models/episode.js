@@ -34,6 +34,9 @@ episodeSchema.methods.typeToPersian = function (){
             break;
     }
 }
+episodeSchema.methods.download = function() {
+    return "#";
+}
 
 
 module.exports = mongoose.model('Episode' , episodeSchema);

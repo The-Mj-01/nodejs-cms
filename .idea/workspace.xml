@@ -2,45 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0ef2b5-ff6a-4364-9214-dcbe0afcb13e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/helpers/uploadImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/http/controllers/admin/episodeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/http/middleware/convertFileToField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/http/middleware/errorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/http/validators/episodeValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/course.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/episode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/views/admin/episodes/create.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/views/admin/episodes/edit.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/views/admin/episodes/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/views/home/about.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/views/home/courses.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/views/home/single-course.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/controllers/admin/adminController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/admin/adminController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/controllers/admin/courseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/admin/courseController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/controllers/auth/loginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/auth/loginController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/controllers/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/http/controllers/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/homeController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/validators/courseValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/courseValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/validators/forgotPasswordValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/forgotPasswordValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/validators/loginValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/loginValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/validators/registerValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/registerValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/validators/resetPasswordValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/resetPasswordValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/http/validators/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/validators/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/password-reset.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/password-reset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/web/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/web/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/web/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/web/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/views/admin/courses/create.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/admin/courses/create.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/views/admin/courses/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/admin/courses/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/episode.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/episode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/web/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/web/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/views/admin/episodes/create.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/admin/episodes/create.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/views/admin/episodes/edit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/admin/episodes/edit.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/views/home/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/home/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/views/home/master.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resource/views/home/master.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nodejs-cms" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,21 +51,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource/views/admin/episodes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource/views/home" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resource/views/admin/episodes" />
-      <recent name="$PROJECT_DIR$/app/http" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resource/views" />
       <recent name="$PROJECT_DIR$/resource/views/home" />
       <recent name="$PROJECT_DIR$/resource/views/auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource/views/home" />
+      <recent name="$PROJECT_DIR$/resource/views/admin/episodes" />
+      <recent name="$PROJECT_DIR$/app/http" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,7 +153,10 @@
       <workItem from="1584802804728" duration="5482000" />
       <workItem from="1584893953788" duration="3552000" />
       <workItem from="1584955708808" duration="2850000" />
-      <workItem from="1584962655275" duration="6869000" />
+      <workItem from="1584962655275" duration="9229000" />
+      <workItem from="1585036265101" duration="3753000" />
+      <workItem from="1585068362527" duration="1346000" />
+      <workItem from="1585116750429" duration="6880000" />
     </task>
     <servers />
   </component>
