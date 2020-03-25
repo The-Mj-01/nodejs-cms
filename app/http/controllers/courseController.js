@@ -23,8 +23,28 @@ class courseController extends controller{
                                         }
                                     }
                                 ]);
-        return res.json(course)
+        let canUserUse = await this.canUse(req , course);
+        return res.json(canUserUse)
         res.render('home/single-course' , { course });
+    }
+    async canUse(req , course){
+        let canUse = false;
+        if(req.isAuthenticated()){
+            switch (course.type) {
+                case 'vip':
+                    canUse = req.user.isVip();
+                    break;
+                case 'cash':
+                    canUse = req.user.checkLearning(course);
+                    break;
+                
+                default:
+                    canUse = true;
+                    break;
+            }
+        }
+        return canUse;
+
     }
 }
 

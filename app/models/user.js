@@ -45,6 +45,13 @@ userSchema.methods.setRememberToken = function(res){
     });
 }
 
+userSchema.methods.isVip = function () {
+    return true;
+}
+
+userSchema.methods.checkLearning = async function (course) {
+    return false;
+}
 
 userSchema.virtual('courses' , {
     ref : 'Course',
