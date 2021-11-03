@@ -34,7 +34,7 @@
     "sharp": "^0.20.3",
     "sprintf-js": "^1.1.2",
     "unique-string": "^1.0.0",
-    "validator": "^10.3.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
